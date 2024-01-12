@@ -1,0 +1,1113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Body{
+    font-family: 'DM Sans', sans-serif; 
+}
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+    background-color: white;
+}
+@media only screen and (max-width:1500px){
+.container{
+     max-width: 1100px;
+     background-color: white;
+}
+}
+/* header part */
+header {
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+.container a{
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+    background-color: #3183FF;
+}
+.dropdown-content a:hover{
+    background-color: rgb(0, 0, 0);
+}
+.dropdown-container1{
+    display: inline;
+    position: relative;
+}
+.dropdown-content1{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+}
+.dropdown-content1 a{
+    display: block;
+}
+.dropdown-container1:hover .dropdown-content1{
+    display: block;
+}
+.dropdown-content1 a:hover{
+    background-color: black;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    gap: 50px;
+}
+
+.left-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.left-menu a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5;
+}
+
+.left-menu a:hover {
+    color: crimson;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.right a {
+    color: #0f2137;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+    text-decoration: none;
+}
+
+.right a.get-started {
+    color: #db4a87;
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    right: 0;
+    top: 70%;
+}
+
+.hero {
+    padding: 50px 0;
+}
+
+.hero .content {
+    display: flex;
+    align-items: center;
+}
+
+.hero .left {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hreo .right {
+    flex-basis: 48%;
+}
+
+.hero .right img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero .title {
+    font-family: Crimson Text;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 80px;
+    font-style: normal;
+}
+
+.hero .text {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 40px;
+}
+
+.text1 {
+    padding: 10px;
+    border-radius: 5px;
+    background: #EFF3F7;
+    border: none;
+}
+button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #DB4A87;
+    color: white;
+}
+button:hover{
+    background-color: #c33872;
+}
+.sponsored{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container1{
+    height: 100%;
+}
+.content1{
+    height: 100%;
+    width: 700px;
+}
+.title1{
+    background-color: #c33872;
+    text-align: center;
+}
+.feature{
+    padding: 50px;
+}
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.top{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bottom{
+    display: flex;
+}
+.feature-card{
+    display: flex;
+    gap: 30px;
+}
+.feature-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left{
+    display: flex;
+}
+.right1{
+    height: 100%;
+}
+.title2{
+    display: flex;
+}
+.title3{
+    display: flex;
+    justify-content: end;
+}
+.img1{
+    display: flex;
+}
+.img2{
+    display: flex;
+}
+.meet-feature{
+    padding: 50px 0;
+}
+.meet-feature .feature-content{
+    display: flex;
+}
+.meet-feature .image-wrapper{
+    position: relative;
+    display: flex;
+}
+.meet-feature .bottom-img{
+    display: block;
+    width: 450px;
+    height: 580px;
+}
+.meet-feature .top-img{
+    height: auto;
+    width: 450px;
+    height: 580px;
+    margin-left: -230px;
+    margin-top: 130px;
+}
+.image{
+    display: flex;
+    position: relative;
+    top: -850px;
+    left: 1080px;
+}
+.text2{
+    position: relative;
+    display: flex;
+    top: -810px;
+    left: 700px;
+}
+.text3{
+    position: relative;
+    display: flex;
+    width: 450px;
+    left: 700px;
+    top: -800px;
+}
+.img2{
+    position: relative;
+    display: flex;
+    left: 1090px;
+    top: -894px;
+}
+.box1{
+    position: relative;
+    display: flex;
+    top: -800px;
+    left: 700px;
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F6F8FB;
+}
+.box2{
+    position: relative;
+    display: flex;
+    top: -780px;
+    left: 700px;
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F6F8FB;
+}
+.text4{
+    position: relative;
+    margin-top: 23px;
+    margin-left: 50px;
+}
+.Forma{
+    position: relative;
+    display: flex;
+    width: 25px;
+    height: 20px;
+    left: 65px;
+    top: 27px;
+}
+.Forma1{
+    position: relative;
+    display: flex;
+    width: 25px;
+    height: 20px;
+    left: 65px;
+    top: 27px;
+}.title4{
+    position: relative;
+    display: flex;
+    width: 550px;
+    left: 700px;
+    font-family: Crimson Text;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    letter-spacing: -1px;
+    top: -800px;
+}
+.text5{
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    width: 470px;
+    left: 700px;
+    top: -830px;
+}
+/* hero1 */
+.container2 {
+    height: 100%;
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
+}
+
+.hero1 {
+    padding: 50px;
+}
+.left1 {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    top: -700px;
+}
+
+.title6{
+    font-family: Crimson Text;
+    font-size: 40px;
+    width: 450px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    top: -800px;
+    left: 70px;
+}
+
+.text6{
+    font-size: 18px;
+    width: 470px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    top: -770px;
+    left: 70px;
+}
+.list{
+    display: flex;
+}
+.text-list{
+    position: relative;
+    display: block;
+    top: -740px;
+    left: 90px;
+    line-height: 40px;
+}
+.text-list li{
+    list-style-type: none;
+
+}
+.list12 li{
+    position: relative;
+    display: block;
+    gap: 10px;
+    line-height: 40px;
+    top: -740px;
+    left: 200px;
+}
+.img3{
+    position: relative;
+    display: flex;
+    top: -840px;
+    left: 214px;
+    width: 30px;
+    height: auto;
+}
+.img11{
+    position: relative;
+    display: flex;
+    top: 29px;
+    left: -25px;
+    width: 17px;
+}
+.img12{
+    position: relative;
+    display: flex;
+    top: 29px;
+    left: -25px;
+    width: 17px;
+}
+.img13{
+    position: relative;
+    display: flex;
+    top: 29px;
+    left: -25px;
+    width: 17px;
+}
+.img14{
+    position: relative;
+    width: 17px;
+    display: flex;
+    top: -710px;
+    left: 175px;
+}
+.img15{
+    position: relative;
+    width: 17px;
+    display: flex;
+    top: -710px;
+    left: 175px;
+}
+.img16{
+    position: relative;
+    width: 17px;
+    display: flex;
+    top: -710px;
+    left: 175px;
+}
+.atext{
+    position: relative;
+    display: flex;
+    top: -550px;
+    left: -220px;
+    text-decoration: none;
+    color: #3183FF;
+}
+.group{
+    position: relative;
+    display: flex;
+    top: -545px;
+    left: -115px;
+    width: 8px;
+    height: 13px;
+}
+.box3{
+    position: relative;
+    top: -600px;
+    width: 100%;
+    height: 800px;
+    background-color: #f5f7f9;
+}
+.htitle{
+    font-family: Crimson Text;
+    position: relative;
+    display: flex;
+    left: 31.5%;
+    top: 30px;
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+.ptext{
+    position: relative;
+    display: flex;
+    top: 40px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+    width: 500px;
+    left: 34%;
+}
+.icon1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 100px;
+    left: 200px;
+}
+.te1xt{
+    position: relative;
+    display: flex;
+    top: 90px;
+    left: -145px;
+    width: 900px;
+}
+.te2xt{
+    position: relative;
+    display: flex;
+    top: 90px;
+    left: -115px;
+    width: 600px;
+}
+.te3xt{
+    position: relative;
+    display: flex;
+    top: 90px;
+    left: -115px;
+    width: 600px;
+}
+.tex1t{
+    position: relative;
+    display: flex;
+    top: 130px;
+    left: -400px;
+    text-align: center;
+    width: 900px;
+}
+.tex2t{
+    position: relative;
+    display: flex;
+    top: 130px;
+    left: -330px;
+    text-align: center;
+    width: 900px;
+}
+.tex3t{
+    position: relative;
+    display: flex;
+    top: 130px;
+    left: -325px;
+    text-align: center;
+    width: 900px;
+}
+.icon2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 100px;
+    left: 300px;
+}
+.te4xt{
+    position: relative;
+    display: flex;
+    top: 290px;
+    left: -205px;
+    width: 900px;
+}
+.te5xt{
+    position: relative;
+    display: flex;
+    top: 290px;
+    left: -125px;
+    width: 1100px;
+}
+.te6xt{
+    position: relative;
+    display: flex;
+    top: 290px;
+    left: -175px;
+    width: 1100px;
+}
+.tex4t{
+    position: relative;
+    display: flex;
+    top: 330px;
+    left: -430px;
+    text-align: center;
+    width: 1200px;
+}
+.tex5t{
+    position: relative;
+    display: flex;
+    top: 330px;
+    left: -370px;
+    text-align: center;
+    width: 1200px;
+}
+.tex6t{
+    position: relative;
+    display: flex;
+    top: 330px;
+    left: -410px;
+    text-align: center;
+    width: 1200px;
+}
+.icond{
+    position: relative;
+    display: flex;
+    top: 200px;
+    left: -100px;
+}
+.icone{
+    position: relative;
+    display: flex;
+    top: 200px;
+    left: 2px;
+}
+.iconf{
+    position: relative;
+    display: flex;
+    top: 200px;
+    left: -50px;
+}
+.lorem{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 160px;
+}
+.lorem1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 420px;
+    left: -30px;
+}
+.href1{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    color: #3183FF;
+    left: -20px;
+}
+.href2{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    color: #3183FF;
+    left: 30px;
+}
+.href3{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    color: #3183FF;
+    left: 12px;
+}
+.href4{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    color: #3183FF;
+    left: 12px;
+}
+.href5{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    color: #3183FF;
+    left: 90px;
+}
+.href6{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    color: #3183FF;
+    left: 65px;
+}
+.href1:hover{
+    color: #c33872;
+}
+.href2:hover{
+    color: #c33872;
+}
+.href3:hover{
+    color: #c33872;
+}
+.href4:hover{
+    color: #c33872;
+}
+.href5:hover{
+    color: #c33872;
+}
+.href6:hover{
+    color: #c33872;
+}
+.title12{
+    position: relative;
+    font-family: Crimson Text;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    top: -540px;
+}
+.text12{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    font-style: normal;
+    top: -560px;
+}
+.href0{
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: #3183FF;
+    top: -500px;
+}
+.href0:hover{
+    color: #c33872;
+}
+.img4{
+   position: relative;
+   top: -500px;
+}
+.emoji3{
+    position: relative;
+    display: flex;
+    top: -590px;
+    left: 310px;
+}
+.text-title{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: -550px;
+    font-size: 25px;
+    font-family: Crimson Text;
+}
+.text-text{
+    position: relative;
+    width: 550px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    left: 478px;
+    top: 15px;
+}
+.imagea{
+    position: relative;
+    display: flex;
+    top: -430px;
+    justify-content: space-around;
+}
+.text-a{
+    position: relative;
+    display: flex;
+    width: 380px;
+    text-align: start;
+    top: -420px;
+    left: -430px;
+}
+.text-2{
+    position: relative;
+    display: flex;
+    width: 380px;
+    text-align: start;
+    top: -470px;
+    left: 86px;
+}
+.text-3{
+    position: relative;
+    display: flex;
+    width: 340px;
+    text-align: start;
+    top: -530px;
+    left: 595px;
+}
+.text-q{
+    position: relative;
+    display: flex;
+    top: -510px;
+    left: -390px;
+}
+.text-w{
+    position: relative;
+    display: flex;
+    top: -530px;
+    left: 130px;
+}
+.text-e{
+    position: relative;
+    display: flex;
+    top: -555px;
+    left: 640px;
+}
+.imgp{
+    position: relative;
+    display: flex;
+    top: -565px;
+    left: 48px;
+}
+.imgo{
+    position: relative;
+    display: flex;
+    top: -585px;
+    left: 565px;
+}
+.imgi{
+    position: relative;
+    display: flex;
+    top: -610px;
+    left: 1075px;
+}
+.qw{
+    position: relative;
+    display: flex;
+    top: 100px;
+    width: 100%;
+    height: 350px;
+}
+.box0{
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    top: -200px;
+    left: 250px;
+}
+.text-z{
+    position: relative;
+    font-size: 30px;
+    display: block;
+    width: 900px;
+    text-align: center;
+    top: 70px;
+}
+.text-x{
+    position: relative;
+    display: flex;
+    top: 130px;
+    left: -440px;
+}
+.text00{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    top: 70px;
+    left: -200px;
+}
+.button{
+    position: relative;
+    display: flex;
+    top: 30px;
+    border: none;
+}
+.ty{
+    position: relative;
+    display: flex;
+    top: -300px;
+    left: 885px;
+}
+.logo1{
+    position: relative;
+    display: flex;
+    top: -140px;
+    left: 200px;
+}
+.tr{
+    position: relative;
+    display: flex;
+    top: -120px;
+    left: 200px;
+}
+.tx{
+    position: relative;
+    display: flex;
+    top: -100px;
+    left: 200px;
+}
+.about{
+    position: relative;
+    display: block;
+    top: -200px;
+    left: 500px;
+}
+.te1{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    top: -20px;
+}
+.te2{
+    position: relative;
+    display: flex;
+}
+.te3{
+    position: relative;
+    display: flex;
+    top: 13px;
+}
+.te4{
+    position: relative;
+    display: flex;
+    top: 60px;
+}
+.te5{
+    position: relative;
+    display: flex;
+    top: 5px;
+}
+.about1{
+    position: relative;
+    display: block;
+    top: -320px;
+    left: 750px;
+}
+.te11{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    top: -10px;
+}
+.te12{
+    position: relative;
+    display: flex;
+    top: 10px;
+}
+.te13{
+    position: relative;
+    display: flex;
+    top: 20px;
+}
+.te14{
+    position: relative;
+    display: flex;
+    top: 30px;
+}
+.te15{
+    position: relative;
+    display: flex;
+    top: 40px;
+}
+.about2{
+    position: relative;
+    display: block;
+    top: -440px;
+    left: 1000px;
+}
+.te21{
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+.te22{
+    position: relative;
+    display: flex;
+    top: 20px;
+}
+.te23{
+    position: relative;
+    display: flex;
+    top: 30px;
+}
+.te24{
+    position: relative;
+    display: flex;
+    top: 40px;
+}
+.te25{
+    position: relative;
+    display: flex;
+    top: 50px;
+}
+.about4{
+    position: relative;
+    display: block;
+    top: -540px;
+    left: 1200px;
+}
+.te31{
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    top: -10px;
+}
+.te32{
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 25px;
+}
+.te33{
+    position: relative;
+    display: flex;
+    top: 20px;
+    left: 25px;
+}
+.te34{
+    position: relative;
+    display: flex;
+    top: 30px;
+    left: 25px;
+}
+.te35{
+    position: relative;
+    display: flex;
+    top: 40px;
+    left: 25px;
+}
+.about3{
+    position: relative;
+    display: block;
+}
+.imgaa{
+    position: relative;
+    display: flex;
+    top: -615px;
+    left: 1200px;
+}
+.imgab{
+    position: relative;
+    display: flex;
+    top: -599px;
+    left: 1200px;
+}
+.imgac{
+    position: relative;
+    display: flex;
+    top: -590px;
+    left: 1200px;
+}
+.imgad{
+    position: relative;
+    display: flex;
+    top: -580px;
+    left: 1200px;
+}
+.text-13{
+    position: relative;
+    display: flex;
+    top: 20px;
+    left: 40px;
+    color: #c33872;
+}
+.from-group{
+    display: flex;
+}
+.tr1{
+    position: relative;
+    display: flex;
+    top: 30px;
+    padding: 10px 50px;
+    left: -30px;
+    background-color: #F6F8FB;
+}
+.tr2{
+    position: relative;
+    display: flex;
+    padding: 10px 50px;
+    top: 40px;
+    left: -30px;
+    background-color: #F6F8FB;
+}
+.tr3{
+    position: relative;
+    display: flex;
+    padding: 30px 50px;
+    top: 50px;
+    left: -30px;
+    background-color: #F6F8FB;
+}
+button1{
+    position: relative;
+    display: block;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    top: 135px;
+    left: -210px;
+    background-color: #c33872;
+    border-radius: 5px;
+
+}
